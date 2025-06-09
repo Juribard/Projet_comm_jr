@@ -2,7 +2,7 @@ let audio = null;
 
 document.getElementById('image-jeu').addEventListener('click', function(e) {
     e.preventDefault();
-    alert("NON, ceci n'est pas Julien");
+    alert("Je ne suis pas Julien!");
     // Lancer la musique (adapte le nom du fichier si besoin)
     if (audio && !audio.paused) {
         audio.pause();
