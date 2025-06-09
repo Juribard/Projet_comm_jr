@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('../images/jNkujuf.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+}
+.title1erpage {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.bouton1 {
+    display: block;
+    margin: 2rem auto; /* Centre le bouton horizontalement */
+    font-size: 3rem;
+    padding: 15px;
+}
+.text_bouton1 {
+    text-decoration: none;
+    color: black;
+}
+.emplassement_console1 {
+    margin-top: 10%;
+    text-align: center;
+    padding: 1px;
+}
+.emplassement_console2 {
+    margin-top: 5%;
+    text-align: center;
+    padding: 1px;
+}
+.fenettre_console {
+    border: solid 2px black;
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+    padding-top: 1px;
+}
+.fenetre_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_fenetre_1 {
+    color: white;
+
+}
+.fenetre_header img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.texte_console1 {
+    color: white;
+    text-align: left;
+    background-color: black;
+    padding-top: 5px;
+}
+.image-jeu-container {
+    position: relative;
+    display: inline-block;
+    /* Optionnel : limite la taille max si besoin */
+    max-width: 800px;
+    width: 100%;
+}
+#image-jeu {
+    cursor: pointer;
+}
+
+.julien {
+    position: absolute;
+    top: 44%;    /* Position verticale en % de l'image */
+    left: 61%;   /* Position horizontale en % de l'image */
+    width: 5%;   /* Largeur en % de l'image */
+    height: 12%; /* Hauteur en % de l'image */
+    background: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    z-index: 2;
+    display: block;
+}
+.charlie {
+    position: absolute;
+    top: 77%;    /* Position verticale en % de l'image */
+    left: 6%;   /* Position horizontale en % de l'image */
+    width: 5%;   /* Largeur en % de l'image */
+    height: 12%; /* Hauteur en % de l'image */
+    background: rgba(179, 255, 0, 0);
+    cursor: pointer;
+    z-index: 2;
+    display: block;
+}
